@@ -45,19 +45,8 @@ const Works = () => {
     source_code_link,
   }) => {
     return (
-      <motion.div variants={fadeIn('up', 'spring', index * 0.2, 0.75)}>
-        <Tilt
-          tiltEnable={true}
-          tiltMaxAngleX={8}
-          tiltMaxAngleY={8}
-          scale={1.05}
-          transitionSpeed={800}
-          glareEnable={true}
-          glareMaxOpacity={0.2}
-          glareColor="#915eff"
-          glarePosition="all"
-          className="bg-[#151030] p-5 rounded-2xl sm:w-[360px] w-full h-full shadow-lg hover:shadow-purple-500/30 transition-shadow"
-        >
+      <motion.div variants={fadeIn('up', 'spring', index * 0.2, 0.75)}  className="bg-[#151030] p-5 rounded-2xl sm:w-[360px] w-full h-full shadow-lg hover:shadow-purple-500/30 transition-shadow">
+    
           <div className="relative w-full h-[230px] group">
             <img
               src={image}
@@ -99,7 +88,6 @@ const Works = () => {
               </p>
             ))}
           </div>
-        </Tilt>
       </motion.div>
     );
   };
