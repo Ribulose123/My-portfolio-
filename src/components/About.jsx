@@ -34,7 +34,7 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
-    <section className='bg-[#0a0618] py-16 px-4 sm:px-8'> {/* Dark background container */}
+    <section className='bg-[#0a0618] py-16 px-4 sm:px-8' id='about'> {/* Dark background container */}
       <div className='max-w-7xl mx-auto'>
         <motion.div variants={textVariant()}>
           <p className='text-secondary text-lg text-white'>Introduction</p>

@@ -5,6 +5,8 @@ import Navbar from '../src/components/Navbar.jsx'
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
 import Experience from "./components/Experience.jsx";
+import Tech from "./components/Tech.jsx";
+import Works from "./components/Works.jsx";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
           <Hero/>
           <About/>
           <Experience/>
+          <Tech/>
+          <Works/>
       </div>
     </ThemeProvider>
   )
