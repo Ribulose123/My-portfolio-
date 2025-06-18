@@ -2,6 +2,7 @@ import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import { FaArrowDown } from 'react-icons/fa';
+import StarsCanvas from './canvas/Stars';
 
 const Hero = () => {
   // Variants for individual letters of the name
@@ -44,8 +45,11 @@ const Hero = () => {
 
   return (
     <section id='home' className='min-h-screen flex items-center justify-center relative overflow-hidden text-white'>
+      
       {/* Darker and richer animated background gradient */}
-      <div className='absolute inset-0 bg-gradient-to-br from-gray-900 via-zinc-950 to-blue-950 z-0 animate-gradient'></div>
+      <div className='absolute inset-0 bg-gradient-to-br from-gray-900 via-zinc-950 to-blue-950 z-0 animate-gradient'>
+        <StarsCanvas/>
+      </div>
 
       <div className='container mx-auto px-6 py-24 z-10 text-center relative'>
         <motion.div
@@ -78,7 +82,7 @@ const Hero = () => {
 
           {/* Optimized CTA Button */}
           <motion.a
-            href="#skills"
+            href="#work"
             className="px-8 py-4 bg-purple-600 text-white font-semibold rounded-full shadow-lg hover:bg-purple-700 transition-all duration-300 flex items-center gap-2"
             variants={itemVariants}
             whileHover={{ 

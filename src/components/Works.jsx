@@ -45,7 +45,7 @@ const Works = () => {
     source_code_link,
   }) => {
     return (
-      <motion.div variants={fadeIn('up', 'spring', index * 0.2, 0.75)}  className="bg-[#151030] p-5 rounded-2xl sm:w-[360px] w-full h-full shadow-lg hover:shadow-purple-500/30 transition-shadow">
+      <motion.div variants={fadeIn('up', 'spring', index * 0.2, 0.75)}  className="bg-[#151030] p-5 rounded-2xl sm:w-[360px] w-full h-full shadow-lg hover:shadow-purple-500/30 transition-shadow" >
     
           <div className="relative w-full h-[230px] group">
             <img
@@ -93,7 +93,7 @@ const Works = () => {
   };
 
   return (
-    <section className="bg-[#0a0618] relative py-16 px-6 sm:px-16">
+    <section className="bg-[#0a0618] relative py-16 px-6 sm:px-16" id='work'>
       <motion.div
         variants={staggerContainer}
         initial="hidden"
