@@ -51,7 +51,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="relative w-full min-h-screen overflow-hidden bg-gradient-to-br from-[#0a0618] to-[#1a1038]">
+        <div className="relative w-full min-h-screen overflow-hidden bg-gradient-to-br from-[#0a0618] to-[#1a1038]" id='contact'>
             {/* Stars Background */}
             <StarsCanvas />
             

@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion'
-import { FiMoon, FiSun, FiMenu, FiX } from 'react-icons/fi'
+import {  FiMenu, FiX } from 'react-icons/fi'
 import { useState } from 'react'
 
 export default function Navbar() {

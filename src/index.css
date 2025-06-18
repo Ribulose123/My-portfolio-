@@ -9,8 +9,9 @@
 }
 
 
-body{
-  overflow-x: hidden;
+html, body {
+    overflow-x: hidden; 
+    width: 100%; 
 }
 
 /* Keyframes */
